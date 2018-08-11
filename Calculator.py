@@ -16,9 +16,9 @@ def selectMathType():
 
 def basicArithmetic():
     print("Please enter the first number in the equation. ")
-    firstNumber = input()
+    firstNumber = int(input())
     print("Please enter the second number in the equation. ")
-    secondNumber = input()
+    secondNumber = int(input())
     print("What operation are we doing? ")
     print("Input + for addition, - for subtraction, * for multiplication, and / for division. ")
     operation = input()
